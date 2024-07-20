@@ -17,6 +17,9 @@ Technologies Used
 •	Spyder: Integrated Development Environment (IDE).
 •	HTML/CSS: Front-end development.
 
+Source of the datasets
+https://www.kaggle.com/datasets/carolzhangdc/imdb-5000-movie-dataset
+
 Installation
 Follow these steps to set up and run the project:
 1.	Download all the files in the Repository
