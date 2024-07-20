@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bac.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0 8%;
+    position: relative;
+}
+ 
+nav
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.logoo
+{
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul
+{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+ nav ul li a::after
+ {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.3s;
+ }
+
+ nav ul li a:hover::after
+ {
+    width: 50%;
+ }
+
+ .text-box
+{
+    color:#fff;
+    position: absolute;
+    top: 30%;
+}
+
+.text-box h1
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text-box p
+{
+    font-size: 70px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    text-align: center;
+
+}
+@keyframes back 
+{
+    100%{
+        background-position: 2000px 0;
+    }
+
+}
+
+.container .imagee img 
+{
+       height: 400px;
+       width: 500px;
+       float: right;
+       border-radius: 20px;
+       
+}
+
+.class1
+{
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+   line-height: 20px;
+}
+
+.container .Input-Box{
+    /*min-height: 10vh;*/
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+    position: relative;
+    height: 75px;
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    margin:  20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 7%;
+    left: 20%;
+    top: 8%;
+
+}
+
+.container .Input-Box i,
+.container .Input-Box .button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.container .Input-Box i{
+    left: 15px;
+    font-size: 25px;
+    color: gray;
+}
+
+.container .Input-Box input
+{
+    height: 70%;
+    width: 85%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding: 0 150 0 65;
+    background-color: transparent;
+}
+
+.container .Input-Box .button
+{
+    right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 6px;
+    background-color: darkblue;
+}
+
+.container .Input-Box .button.clicked
+{
+    transform: translateY(-50%) scale(0.98);
+}
+
+.container .insta
+{
+    height: 60px;
+    width: 60px ;
+    transform: translate(500%, 0);
+}
+
+.container .gmail
+{
+    height: 60px;
+    width: 60px ;
+    transform: translate(600%, 0);
+}
+
+
+.container h1
+{
+    top: 70%;
+    font-size: 35px;
+    font-weight: 600;
+    color:#fff;
+    text-align: center;
+}
+
+.container h2
+{
+    top: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+
+
+}
+.container h3
+{
+     font-size: 20px;
+     margin-left: -20px;
+     color: white;
+     text-align: center;
+}
+
+.container h4
+{
+    text-align: center;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+.flex .flexx{
+    top: 150px;
+    color:black
+
+
+}
+.container h5
+{
+    top: 50px;
+    font-size: 20px;
+    margin-left: -40px;
+    color: white;
+    position: relative;
+    text-align: left;
+    font-family: cursive;
+
+}
+.container h6
+{
+    top: 55px;
+    font-size: 20px;
+    margin-left: -40px;
+    color: white;
+    position: relative;
+    font-family: cursive;
+    
+}
+
