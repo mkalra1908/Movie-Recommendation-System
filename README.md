@@ -17,6 +17,9 @@ Technologies Used
 •	Spyder: Integrated Development Environment (IDE).
 •	HTML/CSS: Front-end development.
 
+Link of the datasets
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+
 Installation
 Follow these steps to set up and run the project:
 1.	Download all the files in the Repository
